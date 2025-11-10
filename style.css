@@ -49,10 +49,15 @@ body{
 
 
 .containerEngagement{
-    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
     align-items:center;
-    height:600px;
     width:auto;
+    height:400px;
+
+    
+
     a{
         color:white;
         background-color:#CC4E00;
@@ -65,13 +70,25 @@ body{
     }
         .engagementTextesContainer{
         display:flex;
-        justify-content: center;
-
+        flex-direction:row;
+        gap:15px;
         p{
-        width:280px;
+        width:400px;
+        
 
         }
     }
+}
+
+.engagement{
+    display:flex;
+    flex-direction:column;
+    
+    height:300px;
+    width:auto;
+
+    
+    
 }
 
 .containerLaRucheFond{
