@@ -1,0 +1,110 @@
+/* *{
+    border:solid red;
+} */
+
+body{
+    margin:0px;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    align-items:center;
+    padding-right:10px;
+    background-color: white;
+    
+    .navbarCoteGauche{
+        display:flex;
+        align-items:center;
+        img
+        {
+        width:20%;
+        }
+        h1{
+
+            font-size:30px;
+        }
+    }
+    .liens{
+        ul{
+            display:flex;
+            align-items: center;
+        }
+
+        .lienAcheter{
+                background-color:#CC4E00;
+                color:white;
+                padding:5px;
+                border-radius:5px;
+            }
+        li{
+            list-style-type: none;
+            padding-right:25px;
+            
+        }
+    }
+}
+
+
+
+.containerEngagement{
+    
+    align-items:center;
+    height:600px;
+    width:auto;
+    a{
+        color:white;
+        background-color:#CC4E00;
+        text-decoration:none;
+        padding:5px;
+        border-radius:5px;
+    }
+        h2{
+        display:block;
+    }
+        .engagementTextesContainer{
+        display:flex;
+        justify-content: center;
+
+        p{
+        width:280px;
+
+        }
+    }
+}
+
+.containerLaRucheFond{
+    background-color:#F3C827;
+}
+.containerLaRuche{
+
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items:center;
+    height:340px;
+    width:auto;
+     a{
+        color:white;
+        background-color:#CC4E00;
+        text-decoration:none;
+        padding:5px;
+        border-radius:5px;
+    }
+
+    .coteGaucheAvantImg{
+        display:flex;
+        align-items:center;
+    }
+    img{
+        width:40%;
+    }
+}
+
+
+    
+
+
+    
+
