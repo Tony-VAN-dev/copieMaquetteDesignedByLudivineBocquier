@@ -46,6 +46,33 @@ body{
     }
 }
 
+.container{
+
+    display:flex;
+    flex-direction:column;
+    width:auto;
+    height:200px;
+    justify-content:center;
+    padding:30px 80px 30px 80px;
+
+
+ 
+    
+}
+
+.cards-wrapper{
+
+
+     .engagementTextesContainer{
+        display:flex;
+        gap:15px;
+        p{
+        width:400px;
+        
+
+        }
+    }
+}
 
 
 .containerEngagement{
@@ -79,6 +106,8 @@ body{
         }
     }
 }
+
+
 
 .engagement{
     display:flex;
@@ -119,8 +148,15 @@ body{
     }
 }
 
+/*Fonds*/
+.fondBlanc{
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-    
+}
+
 
 
     
