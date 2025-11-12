@@ -70,6 +70,7 @@ body{
     display:flex;
     flex-direction:row;
     gap:20px;
+    
     p{
         
         padding:0px 10px 0px 10px;
@@ -79,13 +80,9 @@ body{
     
     .card{
         /*Affichage paramètres*/
-        display:flex;
-        flex-direction:column;
-        width:200px;
-        height:350px;
-        padding:5px;
-        flex-wrap:wrap;
-        gap:10px;
+        width:300px;
+        height:200px;
+ 
         /*Couleur de fond*/
         background-color:#F3C827;
         #lienAjouterAuPanier{
