@@ -53,23 +53,63 @@ body{
     width:auto;
     height:200px;
     justify-content:center;
-    padding:30px 80px 30px 80px;
-
-
- 
-    
+    padding:80px 30px 80px 30px;
 }
+.containerFooterBlocs{
+    display:flex;
+    .blocFooter{
+        display:flex;
+        flex-direction:column;
+        
+        width:300px;
 
+
+    }
+}
 .cards-wrapper{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    p{
+        
+        padding:0px 10px 0px 10px;
+        margin:0px;
 
+        }
+    
+    .card{
+        /*Affichage paramètres*/
+        display:flex;
+        flex-direction:column;
+        width:200px;
+        height:350px;
+        padding:5px;
+        flex-wrap:wrap;
+        gap:10px;
+        /*Couleur de fond*/
+        background-color:#F3C827;
+        #lienAjouterAuPanier{
+            background-color:#CC4E00;
+            color:white;
+            border-radius:10px;
+            width:auto;
+        }
+    }    
+    img{
+        
+        width:80%;
+    }
+    .fondJauneSeulement{
+        margin:0px;
+        
+     
+    }
 
      .engagementTextesContainer{
         display:flex;
         gap:15px;
         p{
         width:400px;
-        
-
         }
     }
 }
@@ -120,9 +160,7 @@ body{
     
 }
 
-.fondJaune{
-    background-color:#F3C827;
-}
+
 .containerLaRuche{
 
     display:flex;
@@ -154,10 +192,28 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-
-}
-
-
+    height:500px;
 
     
 
+}
+
+.fondJaune{
+    background-color:#F3C827;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#bienfaitsMielsLien{
+    text-decoration:none;
+    background-color:#CC4E00;
+    width:300px;
+    color:white;
+    
+}
+
+footerContainer{
+    display:flex;
+    
+}
