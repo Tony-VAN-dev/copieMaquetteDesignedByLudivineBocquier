@@ -1,9 +1,37 @@
+/*RESPONSIVE*/
+@media(max-width:768px)
+{
+    .nav-bar{
+        .liens{
+            ul{
+                display:flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+            }
+       
+        }
+            
+    }
+
+    .cards-wrapper{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .container{
+        
+    }
+}
+
 /* *{
     border:solid red;
 } */
 
 body{
     margin:0px;
+}
+
+section{
+    padding:10px;
 }
 
 .nav-bar{
@@ -51,9 +79,11 @@ body{
     display:flex;
     flex-direction:column;
     width:auto;
-    height:200px;
+    height:300px;
     justify-content:center;
+    align-items:center;
     padding:80px 30px 80px 30px;
+
 }
 .containerFooterBlocs{
     display:flex;
@@ -82,9 +112,15 @@ body{
         /*Affichage paramètres*/
         width:300px;
         height:200px;
+
+        .fondJaune{
+            p{
+                width:200px;
+            }
+        }
+        
  
-        /*Couleur de fond*/
-        background-color:#F3C827;
+
         #lienAjouterAuPanier{
             background-color:#CC4E00;
             color:white;
@@ -94,10 +130,11 @@ body{
     }    
     img{
         
-        width:80%;
+        width:100%;
     }
     .fondJauneSeulement{
         margin:0px;
+        background-color:#F3C827;
         
      
     }
@@ -186,20 +223,10 @@ body{
 /*Fonds*/
 .fondBlanc{
     background-color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:500px;
-
-    
-
 }
 
 .fondJaune{
     background-color:#F3C827;
-    display:flex;
-    justify-content:center;
-    align-items:center;
 }
 
 #bienfaitsMielsLien{
